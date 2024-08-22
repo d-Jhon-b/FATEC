@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px ;
+}
+/*id in HTML*/
+#app{
+    padding: 15px;
+    border: 3px solid yellow;
+    background-color:chocolate;
+    height: 300px;
+}
+/*class in HTML*/
+.secao{
+    margin: 10px;
+    border: 3px dashed red;
+    width: 50px;
+    height: 50px;
+    background-color: darkmagenta;
+
+
+}
+aside{
+    margin: 3px;
+}
+nav{
+    border: solid 2px red; 
+    margin: 3px;
+    padding: 10px;
+    height: 50px;
+}
+#navbar{
+    margin: 2px;
+    padding: 10px, 0px, 20px, 50px;
+    border: dashed 2px green ;
+    background-color: gray;
+    
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+ol li{
+    text-decoration: none;
+
+}
+a{
+    text-shadow: tomato;
+
+    text-decoration: none;
+}
